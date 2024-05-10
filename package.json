@@ -4,8 +4,7 @@
   "description": "Mempersembahkan Awesome Class sebagai situs web statis yang menyediakan sorotan-sorotan memori bagi kelas A tahun ajaran 2021 sampai 2024 pada kelas 7 hingga kelas 9 di SMP Negeri 6 Lembang.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
-    "final": "npx tailwindcss -o ./public/css/final.css --minify"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch --minify"
   },
   "keywords": [],
   "author": "",
